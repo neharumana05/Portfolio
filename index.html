@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Neha Rumana</a>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list grid">
+
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class="fa-solid fa-house"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="fa-solid fa-laptop"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#qualification" class="nav_link">
+                            <i class="ri-book-shelf-line"></i>Qualifications
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="fa-solid fa-trophy"></i>Achievements
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#projects" class="nav_link">
+                            <i class="fa-regular fa-image"></i>Projects
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="ri-mail-line"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav_close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- main -->
+
+    <main class="main">
+
+
+        <!-- home -->
+
+        <section class="home section" id="home">
+            <div class="home_container container grid section_border">
+                <div class="home_data grid">
+                    <h1 class="home_title">
+                        Hi, I'm Neha Rumana <br>
+                        Frontend Developer <br>
+                        Based In India<br>
+                    </h1>
+
+                    <div class="home_blob grid">
+                        <div class="home_profile">
+
+                            <div class="profile_frame">
+                                <img src="image.png" alt="self-img">
+                            </div>
+
+                            <!-- decorative bubbles -->
+                            <span class="bubble bubble-1"></span>
+                            <span class="bubble bubble-2"></span>
+                            <span class="bubble bubble-3"></span>
+                            <span class="bubble bubble-4"></span>
+                            
+                             <!-- Decorative dots -->
+                            <div class="dots dots-left"></div>
+                            <div class="dots dots-right"></div>
+
+                            <!-- Orbit -->
+                            <div class="orbit">
+                                <span class="orbit-dot"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+
+                    <ul class="home_social">
+                        <a href="https://www.linkedin.com/in/neharumana64/" target="_blank" class="home_social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/neharumana05" target="_blank" class="home_social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- home info 1 -->
+
+                <div class="home_info">
+                    <div>
+                        <h3 class="home_info-title">
+                            BIOGRAPHY
+                        </h3>
+
+                        <p class="home_info-description">
+                            This is Neha Rumana, currently pursuing my Degree in Computer Science. <br>
+                            I'm very passionate about building responsive web interfaces. <br>
+                            Looking forward to serve tech industries with my skills.<br>
+                        </p>
+                    </div>
+
+                    <div class="home_contact_info">
+                        <h3 class="home_info-title">
+                            CONTACT
+                        </h3>
+
+                        <p class="home_info-description">
+                            Hyderabad, India <br>
+                            neharumana64@gmail.com <br>
+                            +91 9505713907 <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home_info-title">
+                            SERVICES
+                        </h3>
+
+                        <p class="home_info-description">
+                            Frontend Development <br>
+                            Responsive User Interface <br>
+                            API integration<br>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- home info 2 -->
+
+                <div class="home_info">
+                    <div>
+                        <h3 class="home_info-title">
+                            YEARS OF EXPERIENCE
+                        </h3>
+                        <p class="home_info-number">0</p>
+                    </div>
+
+                    <div>
+                        <h3 class="home_info-title">
+                            PROJECTS
+                        </h3>
+                        <p class="home_info-number">2+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My technical skills</span>
+
+            <div class="skills_container container grid section_border">
+
+                <!-- skills 1 -->
+
+                <div class="skills_content">
+                    <h3 class="skills_title">
+                        <i class="ri-braces-line"></i>Frontend Development
+                    </h3>
+
+                    <div class="skills_info">
+                        <div class="skills_data">
+                            <div class="skills_blob html">
+                                <img src="html5.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills_name">HTML5</h3>
+                            <span class="skills_subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob css">
+                                <img src="css3.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills_name">CSS3</h3>
+                            <span class="skills_subtitle">Advanced</span>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob js">
+                                <img src="js.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills_name">JavaScript</h3>
+                            <span class="skills_subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob api">
+                                <img src="api.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills_name">API <br> Integration</h3>
+                            <span class="skills_subtitle">Beginner</span>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_blob git">
+                                <img src="git.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills_name">Git</h3>
+                            <span class="skills_subtitle">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <!-- qualification -->
+        <section class="qualification section" id="qualification">
+            <h2 class="section_title">Qualification</h2>
+            <span class="section_subtitle">Education and Experience</span>
+
+            <div class="qualification_container container grid section_border">
+
+                <!-- qualification 1 -->
+
+                <div class="qualification_content">
+                    <h3 class="qualification_title">
+                        <i class="ri-pencil-ruler-2-line"></i>Education
+                    </h3>
+                    <div class="qualification_info">
+
+                        <div>
+                            <h3 class="qualification_name">
+                                Pursuing Degree in <br> Computer Science specialized with AI and ML
+                            </h3>
+                            <span class="qualification_country">
+                                Hyderabad, India
+                            </span>
+                            <span class="qualification_year">
+                                2023 - 2027
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">
+                                High School - Nalanda Jr. College
+                            </h3>
+                            <span class="qualification_country">Hyderabad, India</span>
+                            <span class="qualification_year">2021 - 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_name">Middle School - St. Alphonsas High School</h3>
+                            <span class="qualification_country">Hyderabad, India</span>
+                            <span class="qualification_year">2019 - 2021</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- qualification 2 -->
+
+                <div class="qualification_content">
+                    <h3 class="qualification_title">
+                        <i class="fa-solid fa-building"></i>Work
+                    </h3>
+                    <div class="qualification_info">
+
+                        <div>
+                            <h3 class="qualification_name">
+                                Frontend Developer
+                            </h3>
+                            <span class="qualification_country">No Experience</span>
+                            <span class="qualification_year">Fresher</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="dots.webp" alt="qualification image" class="qualification_img">
+        </section>
+
+
+        <!-- Achievements -->
+        <section class="services section" id="services">
+            <h2 class="section_title">Achievements</h2>
+            <span class="section_subtitle">My achievements so far</span>
+
+            <div class="services_container container grid section_border">
+                <div class="services_card">
+                    <i class="ri-layout-2-line"></i>
+
+                    <h2 class="services_title">
+                        SIH 2025 <br> Participant <br>
+                        Team Tech Pirates T23 
+                    </h2>
+
+                    <p class="services_description">
+                        I participated in SIH 2025 Hackathon, where i worked with my team members to build an AI tool.<br>
+                        MAITRI : For well being of astronauts in space.<br>
+                    </p>
+
+                    <div class="services_border"></div>
+                </div>
+
+                <div class="services_card">
+                    <i class="ri-pantone-fill"></i>
+
+                    <h2 class="services_title">
+                        Zentron 2025<br>
+                        Team lead - college level DSA Contest 
+                    </h2>
+
+                    <p class="services_description">
+                        I participated in Zentron 2025 DSA Contest, which was held at our college level.<br>
+                        I learned to lead my team members and improved my problem solving skills.<br>
+                    </p>
+
+                    <div class="services_border"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section_title">Projects</h2>
+            <span class="section_subtitle">Most recent work</span>
+
+            <div class="container section_border">
+                <div class="projects_container swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- project 1 -->
+                         <div class="projects_content swiper-slide">
+                            <img src="project1.jpg" alt="projects image" class="projects_img">
+
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <h1 class="projects_title">Spotify Clone</h1>
+
+                                <a href="https://github.com/neharumana05/Spotify-Clone" target="_blank" class="projects_button">
+                                    view Source Code <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <!-- project 2 -->
+                         <div class="projects_content swiper-slide">
+                            <img src="project2.jpg" alt="projects image" class="projects_img">
+
+                            <div>
+                                <span class="projects_subtitle">Js DOM method</span>
+                                <h1 class="projects_title">To Do App</h1>
+
+                                <a href="https://github.com/neharumana05/To-Do-App" target="_blank" class="projects_button">
+                                    view Source Code <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <!-- project 3 -->
+                         <div class="projects_content swiper-slide">
+                            <img src="project3.jpg" alt="projects image" class="projects_img">
+
+                            <div>
+                                <span class="projects_subtitle">API Integration</span>
+                                <h1 class="projects_title">DevLens</h1>
+
+                                <a href="#" target="_blank" class="projects_button">
+                                    Upcoming <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <!-- project 4 -->
+                         <div class="projects_content swiper-slide">
+                            <img src="project4.jpg" alt="projects image" class="projects_img">
+
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <h1 class="projects_title">Porfolio</h1>
+
+                                <a href="#" target="_blank" class="projects_button">
+                                    Upcoming <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                    </div>
+
+                    <!-- swiper arrows -->
+                    
+                    <div class="button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    
+                    <div class="button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- swiper pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="testinoial section" id="testinomial"></section> -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+
+            <div class="contact_container container grid section_border">
+                <div class="contact_content">
+                    <h3 class="contact_title">
+                        <i class="fa-regular fa-comment"></i> Write me a message
+                    </h3>
+
+                    <div class="contact_info">
+                        <div class="contact_data">
+                            <span class="contact_data_title">Email</span>
+                            <span class="contact_data_info">neharumana64@gmail.com</span>
+                        </div>
+
+                        <div class="contact_data">
+                            <span class="contact_data_title">Whatsapp</span>
+                            <span class="contact_data_info">+91 9505713907</span>
+
+                            <a href="https://wa.me/919505713907?text=Hi, I am here from your portfolio" target="_blank" class="contact_button">
+                                Text me <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact_data">
+                            <span class="contact_data_title">Telegram</span>
+                            <span class="contact_data_info">@neharumana64</span>
+
+                            <a href="https://t.me/neharumana64" target="_blank" class="contact_button">
+                                Text me <i class="ri-telegram-2-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact_content">
+                    <h3 class="contact_title">
+                        <i class="fa-regular fa-envelope"></i> Write me your desired Project
+                    </h3>
+
+                    <form action="" class="contact_form" id="contact_form" novalidate>
+                        <div class="contact_form_div">
+                            <label for="" class="contact_form_tag">Name</label>
+                            <input type="text" name="user_name" required placeholder="Write your Name" class="contact_form_input" id="contact_name">
+                        </div>
+
+                        <div class="contact_form_div">
+                            <label for="" class="contact_form_tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="Write your email id" class="contact_form_input" id="contact_email">
+                        </div>
+
+                        <div class="contact_form_div contact_form_area">
+                            <label for="" class="contact_form_tag">Project</label>
+                            <textarea name="user_project" required placeholder="Write your project description" class="contact_form_input" id="contact_project"></textarea>
+                        </div>
+
+                        <p class="contact_message" id="contact_message">
+                            <!-- Message -->
+                        </p>
+
+                        <button type="submit" class="contact_button">
+                            submit <i class="ri-send-plane-2-line"></i>
+                        </button>
+                    
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container container">
+            <h1 class="footer_title">Neha Rumana</h1>
+            <p>Frontend Developer</p>
+
+            <ul class="footer_list">
+                <li>
+                    <a href="#home" class="footer_link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer_link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer_link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer_social">
+                <a href="https://www.linkedin.com/in/neharumana64/" target="_blank" class="footer_social_link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/neharumana05" target="_blank" class="footer_social_link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </ul>
+
+            <span class="footer_copy">
+                &#169; Copyright. All rights reserved
+            </span>
+        </div>
+    </footer>
+
+    <!-- scroll up -->
+
+    <a href="#home" id="scrollup" class="scrollup" aria-label="Scroll to top">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
